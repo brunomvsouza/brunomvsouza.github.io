@@ -1,0 +1,17 @@
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Person",
+    "name": "{{ .Site.Params.name | safeHTML }}",
+    "url": "{{ .Site.BaseURL }}",
+    "sameAs": [
+      {{ with .Site.Params.social }}
+        {{ $len := len . }}
+        {{ $last := sub $len 1 }}
+        {{ range $i, $e := . }}
+        "{{ .link | safeURL }}"{{ if ne $i $last }},{{ end }}
+        {{ end }}
+      {{ end }}
+    ]
+  }
+</script>
