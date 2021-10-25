@@ -25,10 +25,10 @@
 	));
 
 	@mixin bg($width) {
-		@include keyframes('bg') {
-			0%		{ @include vendor('transform', 'translate3d(0,0,0)'); }
-			100%	{ @include vendor('transform', 'translate3d(#{$width * -1},0,0)'); }
-		}
+		// @include keyframes('bg') {
+		// 	0%		{ @include vendor('transform', 'translate3d(0,0,0)'); }
+		// 	100%	{ @include vendor('transform', 'translate3d(#{$width * -1},0,0)'); }
+		// }
 
 		#bg {
 			background-size: $width auto;

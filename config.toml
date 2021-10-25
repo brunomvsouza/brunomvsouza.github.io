@@ -17,9 +17,6 @@ canonifyURLs  = true
   about = "Senior Software Engineer &nbsp;&bull;&nbsp; Distributed Systems Enthusiast"
   description = "I'm a senior software engineer with a clear sense of priority and solid Go and JavaScript experience. I can write performant, safe and quality code. I have been working with software engineering since 2008. On the course of my career I had the opportunity to work on very unique problems of distinct products used by millions of people every day. That made me develop a clear sense of priority and taught me a lot on both the human side and the machine side of the experience, always focusing on solving real issues with the best tool for the job in a smart and collaborative manner."
   keywords = "Clear sense of priority,Programming languages,Go,Javascript,High access rate API/Apps/Websites,Team management,Team work,SCRUM,Design patterns,TDD,BDD,Continuous integration,Linux architecture,DevOps,Linux server infrastructure,Docker,AWS,Cloud Computing,Google Cloud,Kubernetes,MySQL,Postgres,Redis,Nginx,User Experience,Git,Scalability"
-  # Disable the scrolling background by entering any string for bg_scroll.
-  # Enable by leaving bg_scroll empty.
-  bg_scroll = "-"
   favicon = "gopher.ico"
 
 [[params.social]]
