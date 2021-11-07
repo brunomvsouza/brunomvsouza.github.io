@@ -9,7 +9,7 @@ enableEmoji = true
 
 languageCode = "en-us"
 title = "Bruno M V Souza • Distributed Systems Enthusiast"
-baseURL = "https://bmvs.io"
+baseURL = "https://brunosouza.dev"
 canonifyURLs  = true
 
 [params]
